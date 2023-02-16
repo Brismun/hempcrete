@@ -4,11 +4,6 @@ import { BeakerIcon } from "@heroicons/react/24/solid";
 
 const App = () => {
   return (
-<<<<<<< HEAD
-    <div className="min-h-screen min-w-full	">
-      <Gallery />
-    </div>
-=======
     <ThemeProvider theme={theme}>
       <div className="min-h-screen min-w-full	">
         <div className="flex items-center justify-center min-h-screen">
@@ -18,7 +13,6 @@ const App = () => {
         </div>
       </div>
     </ThemeProvider>
->>>>>>> 3d1883838e26241ed775fad3c5cb6c944559c36c
   );
 };
 

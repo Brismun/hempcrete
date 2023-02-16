@@ -6,6 +6,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import ContactForm from "./components/Contact/ContactForm";
 import "./index.css";
+import Gallery from "./components/Gallery/gallery";
 const theme = createTheme({
   palette: {
     primary: {
@@ -20,5 +21,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider theme={theme}>
       <ContactForm />
     </ThemeProvider>
+    <Gallery />
   </React.StrictMode>
 );
