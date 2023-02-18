@@ -7,23 +7,18 @@ import ReactDOM from "react-dom/client";
 import ContactForm from "./components/Contact/ContactForm";
 import "./index.css";
 import Gallery from "./components/Gallery/gallery";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { element } from "prop-types";
 import Navbar from "./components/navbar";
+import Footer from "./components/Footer/footer";
 const router = createBrowserRouter([
   {
     path: "/contact",
-    element: <ContactForm />
+    element: <ContactForm />,
   },
-    {path:'/',
-    element: <div>Root</div> },
+  { path: "/", element: <div></div> },
 
-    {path:'/gallery',
-    element: <Gallery/> }
-  
+  { path: "/gallery", element: <Gallery /> },
 ]);
 const theme = createTheme({
   palette: {
@@ -37,10 +32,11 @@ const theme = createTheme({
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-     <Navbar></Navbar> 
-    <RouterProvider router={router} />
+      <Navbar />
+      <Gallery />
+      <Footer />
+
+      <RouterProvider router={router} />
     </ThemeProvider>
-   
   </React.StrictMode>
-  
 );
