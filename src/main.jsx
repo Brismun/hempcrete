@@ -11,6 +11,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { element } from "prop-types";
 import Navbar from "./components/navbar";
 import Footer from "./components/Footer/footer";
+import AboutUs from "./components/AboutUs/AboutUs";
 const router = createBrowserRouter([
   {
     path: "/contact",
@@ -35,6 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Navbar />
       <Gallery />
       <Footer />
+      <AboutUs />
 
       <RouterProvider router={router} />
     </ThemeProvider>
