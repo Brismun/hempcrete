@@ -3,11 +3,11 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col items-center w-[400px] ml-auto mr-auto">
-      <h1 className="mb-3 mt-3 text-orange-500 font-bold text-lg">Text us</h1>
+    <div className="ml-auto mr-auto flex w-[400px] flex-col items-center">
+      <h1 className="mb-3 mt-3 text-lg font-bold text-orange-500">Text us</h1>
 
       <form
-        className="flex-col flex items-center"
+        className="flex flex-col items-center"
         method="POST"
         action="https://formsubmit.co/alex_bakaj@yahoo.com"
         enctype="multipart/form-data"
@@ -22,7 +22,7 @@ const ContactForm = () => {
           placeholder="scrie tata, cu ce te ajutam
           "
         />
-        <div className="flex gap-3 mt-3 ">
+        <div className="mt-3 flex gap-3 ">
           <TextField
             size="small"
             id="outlined-basic"
