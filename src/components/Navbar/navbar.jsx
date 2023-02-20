@@ -9,39 +9,39 @@ const Navbar = () => {
           alt=""
           className="max-h-[150px] max-w-[150px]"
         />
-        <div className="hidden sm:block">
-          <div className="flex items-center gap-[25px] text-[15px]">
+        <div className="hidden gg:block">
+          <div className="flex items-center gap-[15px] text-[15px]">
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               Home
             </a>
 
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               About Us
             </a>
 
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               Gallery
             </a>
 
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               Other Products
             </a>
 
             <a
               href=""
-              className="duration-800 rounded-full border-2 border-solid border-sky-500 bg-sky-500 p-1 text-white transition ease-in-out hover:scale-105"
+              className="duration-800 rounded-full border-2 border-solid border-sky-500 bg-sky-500 p-[5px] text-white transition ease-in-out hover:scale-105"
             >
               Contact
             </a>

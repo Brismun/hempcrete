@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         head: ["Montserrat", "Serif"],
       },
+      screens: {
+        gg: "700px",
+      },
     },
   },
   plugins: [],
