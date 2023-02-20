@@ -9,7 +9,7 @@ import "./index.css";
 import Gallery from "./components/Gallery/gallery";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { element } from "prop-types";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
 import AboutUs from "./components/AboutUs/AboutUs";
 const router = createBrowserRouter([

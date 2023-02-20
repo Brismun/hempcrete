@@ -9,5 +9,7 @@
 }
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
+}
+a {
+  font-family: Montserrat, Sans-serif;
 }
