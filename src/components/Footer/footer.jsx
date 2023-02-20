@@ -1,34 +1,38 @@
 import React from "react";
 
 const Footer = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
-    <footer className="h-fit min-w-[270px] max-w-full bg-slate-500 text-2xl">
-      <div className="relative flex flex-col items-center gap-4 p-4 md:flex-row md:justify-between">
-        <div className="flex flex-col">
-          <img
-            src="https://loremflickr.com/640/360"
-            alt=""
-            className="max-h-[200px] max-w-[200px]"
-          />
-          <div className="flex items-center justify-center gap-4">
-            <a href="">FB</a>
-            <a href="">WAP</a>
-            <a href="">MAIL</a>
-          </div>
-        </div>
-        <div className="flex flex-col justify-center text-center md:absolute md:left-1/2 md:bottom-0 md:mx-4 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
-          <a href="">Home</a>
-          <a href="">AboutUs</a>
-          <a href="">Gallery</a>
-          <a href="">Other Products</a>
-        </div>
-        <div>
-          <a href="">Contact</a>
-        </div>
-        <div className="md:absolute md:left-1/2 md:bottom-0 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
-          CopyRight 2022
+    <footer className="h-fit w-full bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div className="mx-4 flex flex-row items-center justify-between sm:flex-col">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
+          alt=""
+          className="max-h-[150px] max-w-[150px]"
+        />
+        <div className="mr-12 md:mr-0">Menu</div>
+
+        <div className="flex flex-col text-center">
+          <a
+            href=""
+            className="duration-800 rounded-full border-2 border-solid border-sky-500 bg-sky-500 p-1 text-white transition ease-in-out hover:scale-105"
+          >
+            Contact
+          </a>
+          <button
+            className="bottom-0 right-0 rounded-md bg-gray-800 p-2 text-white"
+            onClick={handleScrollToTop}
+          >
+            Back to Top
+          </button>
         </div>
       </div>
+      <p className="text-center">Copyright</p>
     </footer>
   );
 };
