@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-
 const Navbar = () => {
   return (
-    <nav className="mx-10">
+    <nav className="mx-2 gg:mx-5">
       <div className="flex items-center justify-between">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
@@ -13,28 +12,28 @@ const Navbar = () => {
           <div className="flex items-center gap-[15px] font-head text-[15px]">
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-650 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               Home
             </a>
 
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-650 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               About Us
             </a>
 
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-650 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               Gallery
             </a>
 
             <a
               href=""
-              className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
+              className="duration-650 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
             >
               Other Products
             </a>
