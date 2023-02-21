@@ -10,7 +10,7 @@ const Navbar = () => {
           className="max-h-[150px] max-w-[150px]"
         />
         <div className="hidden gg:block">
-          <div className="flex items-center gap-[15px] text-[15px]">
+          <div className="flex items-center gap-[15px] font-head text-[15px]">
             <a
               href=""
               className="duration-450 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-sky-500 hover:bg-sky-500 hover:text-white"
