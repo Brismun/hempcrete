@@ -12,6 +12,7 @@ import { element } from "prop-types";
 import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
 import AboutUs from "./components/AboutUs/AboutUs";
+import OtherProducts from "./components/OtherProducs/OtherProducts";
 const router = createBrowserRouter([
   {
     path: "/contact",
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
 const theme = createTheme({
   palette: {
     primary: {
-      main: orange[500],
+      main: orange[800],
       contrastText: "#fff",
     },
   },
@@ -37,6 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Gallery />
       <Footer />
       <AboutUs />
+      <OtherProducts />
 
       <RouterProvider router={router} />
     </ThemeProvider>

@@ -11,3 +11,22 @@ html {
   scroll-behavior: smooth;
   min-width: 280px;
 }
+
+.modal {
+  width: 100px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-pos {
+  position: relative;
+}
+
+.modal {
+  position: absolute;
+  left: 129px;
+  top: -22px;
+}
